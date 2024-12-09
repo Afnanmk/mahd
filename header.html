@@ -1,0 +1,59 @@
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="main.css" />
+
+    <style>
+        header::before {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 60.75rem;
+            height: 2px;
+            background-color: #461783;
+        }
+    </style>
+  </head>
+  <body>
+    <!--- HEADER ---->
+    <header class="bg-[#ffffff] fixed w-full h-[5.9375rem] max-h-[auto] flex flex-col justify-center">
+      
+      <div class="px-4 md:px-12 flex items-center justify-between">
+          <img src="images/Logo Mahd.svg" alt="" />
+        
+        <nav>
+          <ul class="text-[#323E48] text-sm flex items-center gap-6">
+            <a href="#" class="text-[#461783] text-sm font-bold border border-[rgba(175,114,255,0.25)] w-[5.25rem] h-[2rem] rounded-full inline-flex items-center justify-center">الرئيسية</a>
+            <a href="#">عن مهد</a>
+            <a href="#">مجلس الإدارة</a>
+            <a href="#">المكتبة الرقمية</a>
+            <a href="#">الفعاليات</a>
+            <a href="#">إنجازتنا</a>
+            <a href="#">التوظيف</a>
+            <a href="#">آخبارنا</a>
+          </ul>
+        </nav>
+
+        <div class="flex items-center text-sm gap-8">
+          <div class="inline-flex items-center gap-1">
+            <img src="/images//translate-icon.svg" alt="" />
+            <p class="font-bold">عربي</p>
+          </div>
+
+          <a
+            href="#"
+            class="text-[#ffffff] font-bold bg-[#6F40B6] rounded-full w-[7.1875rem] h-[3rem] inline-flex items-center justify-center"
+            >تواصل معنا</a
+          >
+        </div>
+      </div>
+    </header>
+
+    
+
+  </body>
+</html>
